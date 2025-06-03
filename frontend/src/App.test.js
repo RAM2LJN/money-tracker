@@ -1,8 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+jest.mock('react-chartjs-2', () => ({ Pie: () => <div />, Line: () => <div /> }));
+
+test('renders money tracker title', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const title = screen.getByText(/money tracker/i);
+  expect(title).toBeInTheDocument();
 });
