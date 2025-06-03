@@ -3,6 +3,16 @@ HEAD
 
 A simple full-stack app for tracking income and expenses. The backend is built with Node.js, Express and MongoDB while the frontend uses React and TailwindCSS.
 
+<<<<<<< HEAD
+=======
+## Features
+- Pie and line charts powered by Chart.js
+- Transactions persisted to `localStorage`
+- Summary bar showing income, expenses and balance
+- Filters for viewing recent transactions
+- Optional recurring transactions and per-category limits
+
+>>>>>>> 81b0cc613551f66d12b583a5cb0c60c504507d10
 ## Requirements
 - Node.js 18+
 - MongoDB database

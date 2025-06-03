@@ -2,7 +2,10 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "homepage": "./",
+=======
+>>>>>>> 81b0cc613551f66d12b583a5cb0c60c504507d10
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
