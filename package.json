@@ -1,0 +1,15 @@
+{
+  "name": "money-tracker",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build-react": "cd frontend && npm install && npm run build",
+    "electron": "electron .",
+    "package-win": "electron-packager . money-tracker --platform=win32 --arch=x64 --out=dist --overwrite"
+  },
+  "devDependencies": {
+    "electron": "^25.9.3",
+    "electron-packager": "^17.1.1",
+    "electron-is-dev": "^3.0.1"
+  }
+}
