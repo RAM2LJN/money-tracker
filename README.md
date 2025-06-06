@@ -34,3 +34,14 @@ npm run build
 ```bash
 npm run electron
 ```
+
+## Job Application Bot
+
+A lightweight Python utility for scanning job boards and applying automatically.
+
+### Usage
+```bash
+cd money-tracker/job_bot
+python -m job_bot.main config.example.yaml
+```
+Edit `config.example.yaml` with your own search filters and application details.
