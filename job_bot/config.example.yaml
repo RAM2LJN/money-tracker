@@ -1,9 +1,0 @@
-search:
-  keywords: ["Software Engineer", "Remote"]
-  locations: ["Germany"]
-  posted_within: "1"
-application:
-  resume_path: "/path/to/resume.pdf"
-  cover_letter_path: "/path/to/cover_letter.txt"
-  rate_limit_per_day: 10
-  notification_email: "you@example.com"
